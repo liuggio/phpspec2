@@ -4,10 +4,10 @@ namespace PHPSpec2\Formatter\Presenter\Differ;
 
 class ArrayEngine implements EngineInterface
 {
-    CONST ARRAY_VARIABLE_NAME = '$expected';
-    CONST VALUE_NOT_EXPECTED_TO_BE = 1;
-    CONST VALUE_EXPECTED_TO_BE = 2;
-    CONST VALUE_EXPECTED_TO_BE_DIFFERENT = 3;
+    const ARRAY_VARIABLE_NAME = '$expected';
+    const VALUE_NOT_EXPECTED_TO_BE = 1;
+    const VALUE_EXPECTED_TO_BE = 2;
+    const VALUE_EXPECTED_TO_BE_DIFFERENT = 3;
 
     public function supports($expected, $actual)
     {
