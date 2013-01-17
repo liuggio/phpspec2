@@ -234,6 +234,6 @@ class Application extends BaseApplication
             $input = new ArrayInput(array('command' => 'run'));
         }
 
-        parent::doRun($input, $output);
+        return parent::doRun($input, $output);
     }
 }
